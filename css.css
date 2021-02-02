@@ -42,8 +42,7 @@ a:active {
     text-decoration: none;
 }
 
-.img-logo {
-}
+.img-logo {}
 
 .nav-li-right {
     background-color: #568692;
@@ -107,8 +106,117 @@ a:active {
 
 .btn {
     display: inline-block;
+    padding: 5px;
 }
 
 .btn-primary {
-    background-color: green;
+    background-color: rgb(10, 169, 231);
+}
+
+.btn-zobrazVsechny {
+    padding: 5px;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+    background-color: rgb(10, 169, 231);
+
+
+}
+
+.obsah-novinky {
+    background-color: rgba(18, 91, 109, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1-cojenoveho {
+    padding-top: 5%;
+    padding-left: 5%;
+    margin: 0px;
+}
+
+.galerie {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+
+}
+
+.galerie-item {
+    width: 200px;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.realizace {
+    background-color: rgba(56, 111, 124, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.galerie-realizace{
+    display: flex;
+    padding: 5px;
+    
+}
+.galerie-realizace-row2{
+
+    padding: 5px;
+    
+}
+.galerie-realizace-item{
+    padding:5px;
+}
+.galerie-realizace-item img{
+    border-radius: 5%;
+}
+.prechod{
+    
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+.prechod-image{
+    display: flex;
+    position: relative;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 5px;
+    margin-top: 10px;
+    z-index: 2;
+}
+.prechod-image-left{
+    margin-right: 5px;
+    position: absolute;
+    margin-top: 20%;
+    
+}
+.prechod-image-right{
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 0%;
+    
 }
